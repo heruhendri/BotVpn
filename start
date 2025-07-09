@@ -55,16 +55,16 @@ setup_bot() {
         echo -e "${green}Node.js is already installed, skipping...${neutral}"
     fi
 
-    if [ ! -f /root/BotVPN/app.js ]; then
-        git clone https://github.com/FighterTunnel/BotVPN.git /root/BotVPN
+    if [ ! -f /root/BotVpn/app.js ]; then
+        git clone https://github.com//heruhendri/BotVpn.git /root/BotVpn
     fi
 
-    if ! npm list --prefix /root/BotVPN express telegraf axios moment sqlite3 >/dev/null 2>&1; then
-        npm install --prefix /root/BotVPN sqlite3 express crypto telegraf axios dotenv
+    if ! npm list --prefix /root/BotVpn express telegraf axios moment sqlite3 >/dev/null 2>&1; then
+        npm install --prefix /root/BotVpn sqlite3 express crypto telegraf axios dotenv
     fi
 
-    if [ -n "$(ls -A /root/BotVPN)" ]; then
-        chmod +x /root/BotVPN/*
+    if [ -n "$(ls -A /root/BotVpn)" ]; then
+        chmod +x /root/BotVpn/*
     fi
 }
 
