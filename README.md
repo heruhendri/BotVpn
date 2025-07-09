@@ -18,14 +18,14 @@ FTVPN Bot adalah bot serba otomatis untuk membeli layanan VPN dengan mudah dan c
 
 ## Installasi Otomatis
 ```
-sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt install -y git && apt install -y curl && curl -L -k -sS https://raw.githubusercontent.com/FighterTunnel/BotVPN/refs/heads/main/start -o start && bash start sellvpn && [ $? -eq 0 ] && rm -f start
+sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update -y && apt install -y git && apt install -y curl && curl -L -k -sS https://raw.githubusercontent.com/heruhendri/BotVpn/refs/heads/main/start -o start && bash start sellvpn && [ $? -eq 0 ] && rm -f start
 ```
 
 ## Cara Menggunakan
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/FighterTunnel/BotVPN.git
+   git clone https://github.com/heruhendri/BotVpn.git
    ```
 2. Masuk ke direktori proyek:
    ```bash
@@ -57,6 +57,6 @@ Jika Anda ingin berkontribusi pada proyek ini, silakan fork repository ini dan b
 
 ## Kontak
 
-Jika Anda memiliki pertanyaan atau masalah, silakan hubungi kami di [Telegram](https://t.me/yha_bot).
+Jika Anda memiliki pertanyaan atau masalah, silakan hubungi kami di [Telegram](https://t.me/GbtTapiPngnSndiri).
 
 ✨ Selamat menggunakan layanan kami! ✨
